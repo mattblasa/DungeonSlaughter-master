@@ -110,6 +110,7 @@ class GameLoop(cmd.Cmd):
             monster_name=self.game.monster.name,
             monster_hp=self.game.monster.hp,
             monster_max_hp=self.game.monster.hp_max,
+            monster_max_hp2= self.game.monster.hp_max2 #extra feature, not initialized
         )
         prompt = '\n{hero_color}{hero_name}{end_color} - lvl: {hero_level} {hp_color}[{hero_hp}/{hero_max_hp}]{end_color}'  # noqa: 401
         prompt += ' .. vs .. {monster_color}{monster_name} [{monster_hp}/{monster_max_hp}]{end_color}'
