@@ -29,7 +29,8 @@ class Hero():
         print('{} heals {} damage!'.format(self.name, heal))
 
     def level_up(self):
-        if (not self.level_kills % self.level):
+        #conditional block tests for truthyness. If modulo is 0, then code block runs. Otherwise, no action is taken. 
+        if (not self.level_kills % self.level): #runs only if not a modulo
             self.level += 1
             self.hp_max += self.level
             self.level_kills = 0
