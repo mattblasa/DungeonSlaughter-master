@@ -1,2 +1,2 @@
 # DungeonSlaughter-master
- Dungeon Game
+Text Adventure, Dungeon Master Game. 
